@@ -19,13 +19,17 @@ public class TwoDimensionalArray {
         }
     }
 
-    public int[][] getArray() {
+    public int[][] getTwoDimArray() {
         return twoDimArray;
+    }
+
+    public void setTwoDimArray(int[][] twoDimArray) {
+        this.twoDimArray = twoDimArray;
     }
 
     @Override
     public String toString() {
-        return "twoDimArray values =" + Arrays.toString(twoDimArray) + '}';
+        return "twoDimArray values =" + Arrays.deepToString(twoDimArray) + '}';
     }
 }
 
