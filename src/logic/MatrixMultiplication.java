@@ -4,7 +4,7 @@ import model.TwoDimensionalArray;
 
 public class MatrixMultiplication {
 
-    private static final String MULTIPLY_NOT_ALLOWED = "Матрицы нельзя умножить!";
+    private static final String MULTIPLY_NOT_ALLOWED = "Matrix multiplication is prohibited!";
 
     public static TwoDimensionalArray multiplyMatrix(final int[][] firstMatrix, final int[][] secondMatrix) {
         int column1 = firstMatrix.length;
